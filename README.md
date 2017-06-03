@@ -1,7 +1,7 @@
 # Resume Generator
 
 Generate elegant resumes from a single YAML data file.
-Export them to HTML, JSON, Markdown, XML, PDF or plain text.
+Export them to HTML, JSON, Markdown, text, XML or PDF.
 
 Examples
 ----

@@ -1,0 +1,104 @@
+# Example resume data
+name: Name Lastname
+title: Professional Title
+
+# Contact information
+contact:
+  phone: phone number
+  address: home address
+  webpage:
+    name: webpage
+    url: https://eff.org
+  email: example@email.com
+  github:
+    name: username
+    url: https://github.com/
+  linkedin:
+    name: username
+    url: https://linkedin.com/
+
+# Summary (introduction, opening paragraph)
+summary:
+  'Introduction paragraph, who are you, what motivates you and what are you looking for'
+
+# Resume sections
+sections:
+  # Education
+  - name: Education
+    entries:
+      -
+        what: 'Name of education program #1'
+        when: 'Date #1 - Date #2'
+        where: 'Institution name #1'
+        description: 'GPA: X.X/4.0. Relevant courses: Course #1, Course #2, Course #3'
+      -
+        what: 'Name of education program #2'
+        when: 'Date #1 - Date #2'
+        where: 'Institution name #2'
+        description: 'GPA: X.X/10. Something relevant about the program'
+  # Experience
+  - name: Experience
+    entries:
+      -
+        what: 'Work Title #1'
+        when: 'Date #1 - Present'
+        where: 'Company or institution name, department #1'
+        location: 'City #1, State #1'
+        details:
+          - 'Detailed explanation about the work you did there #1'
+          - 'Detailed explanation about the work you did there #2'
+          - 'Really long and detailed explanation about the work you did there, explaining what you achieved and how did you achieved that, what obstacles you overcame and how it made you a better professional in your field of expertise'
+      -
+        what: 'Work Title #2'
+        when: 'Date #3 - Date #4'
+        details:
+          - 'Detailed explanation about the work you did there #3'
+          - 'Detailed explanation about the work you did there #4'
+      -
+        what: 'Work Title #2'
+        when: 'Date #1 - Date #2'
+        where: 'Company or institution name, department #2'
+        location: 'City #2, State #2'
+        details:
+          - 'Detailed explanation about the work you did there #1'
+          - 'Detailed explanation about the work you did there #2'
+          - 'Really long and detailed explanation about the work you did there, explaining what you achieved and how did you achieved that, what obstacles you overcame and how it made you a better professional in your field of expertise'
+  # Projects
+  - name: Projects
+    entries:
+      -
+        what: 'Project #1'
+        url: 'https://github.com/'
+        description: 'Description of the project'
+        details:
+          - 'Detailed explanation about the project goal or implementation #1'
+          - 'Detailed explanation about the project goal or implementation #2'
+      -
+        what: 'Project #2'
+        url: 'https://github.com/'
+        description: 'Description of the project'
+        details:
+          - 'Detailed explanation about the project goal or implementation #1'
+          - 'Detailed explanation about the project goal or implementation #2'
+  # Skills
+  - name: Skills
+    entries:
+      -
+        what: 'Competences'
+        description: 'Competence #1, Competence #2, Competence #3, Competence #4'
+      -
+        what: 'Software'
+        description: 'Software #1, Software #2, Software #3'
+  # Honors, grants and awards
+  - name: Honors, grants and awards
+    entries:
+      -
+        description: 'General overview of the honors, grands and awards you have received along your career'
+        details:
+          - 'Award name #1 (Date #1)'
+          - 'Award name #2 (Date #2)'
+  # References
+  - name: References
+    entries:
+      -
+        description: 'Description of how the recruiter can contact your references to verify your resume and skills or to talk about how was your past work at a company'

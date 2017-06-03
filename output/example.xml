@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Resume>
+  <Name>Name Lastname</Name>
+  <Title>Professional Title</Title>
+  <Contact>
+    <Email>example@email.com</Email>
+    <Phone>phone number</Phone>
+    <Address>home address</Address>
+    <Webpage>https://eff.org</Webpage>
+    <Github>https://github.com/</Github>
+    <Linkedin>https://linkedin.com/</Linkedin>
+  </Contact>
+  <Section name="Education">
+    <Entry>
+      <What>Name of education program #1</What>
+      <Where>Institution name #1</Where>
+      <When>Date #1 - Date #2</When>
+      <Description>GPA: X.X/4.0. Relevant courses: Course #1, Course #2, Course #3</Description>
+    </Entry>
+    <Entry>
+      <What>Name of education program #2</What>
+      <Where>Institution name #2</Where>
+      <When>Date #1 - Date #2</When>
+      <Description>GPA: X.X/10. Something relevant about the program</Description>
+    </Entry>
+  </Section>
+  <Section name="Experience">
+    <Entry>
+      <What>Work Title #1</What>
+      <Where>Company or institution name, department #1</Where>
+      <When>Date #1 - Present</When>
+      <Location>City #1, State #1</Location>
+      <Details>
+        <Detail>Detailed explanation about the work you did there #1</Detail>
+        <Detail>Detailed explanation about the work you did there #2</Detail>
+        <Detail>Really long and detailed explanation about the work you did there, explaining what you achieved and how did you achieved that, what obstacles you overcame and how it made you a better professional in your field of expertise</Detail>
+      </Details>
+    </Entry>
+    <Entry>
+      <What>Work Title #2</What>
+      <When>Date #3 - Date #4</When>
+      <Details>
+        <Detail>Detailed explanation about the work you did there #3</Detail>
+        <Detail>Detailed explanation about the work you did there #4</Detail>
+      </Details>
+    </Entry>
+    <Entry>
+      <What>Work Title #2</What>
+      <Where>Company or institution name, department #2</Where>
+      <When>Date #1 - Date #2</When>
+      <Location>City #2, State #2</Location>
+      <Details>
+        <Detail>Detailed explanation about the work you did there #1</Detail>
+        <Detail>Detailed explanation about the work you did there #2</Detail>
+        <Detail>Really long and detailed explanation about the work you did there, explaining what you achieved and how did you achieved that, what obstacles you overcame and how it made you a better professional in your field of expertise</Detail>
+      </Details>
+    </Entry>
+  </Section>
+  <Section name="Projects">
+    <Entry>
+      <What>Project #1</What>
+      <Url>https://github.com/</Url>
+      <Description>Description of the project</Description>
+      <Details>
+        <Detail>Detailed explanation about the project goal or implementation #1</Detail>
+        <Detail>Detailed explanation about the project goal or implementation #2</Detail>
+      </Details>
+    </Entry>
+    <Entry>
+      <What>Project #2</What>
+      <Url>https://github.com/</Url>
+      <Description>Description of the project</Description>
+      <Details>
+        <Detail>Detailed explanation about the project goal or implementation #1</Detail>
+        <Detail>Detailed explanation about the project goal or implementation #2</Detail>
+      </Details>
+    </Entry>
+  </Section>
+  <Section name="Skills">
+    <Entry>
+      <What>Competences</What>
+      <Description>Competence #1, Competence #2, Competence #3, Competence #4</Description>
+    </Entry>
+    <Entry>
+      <What>Software</What>
+      <Description>Software #1, Software #2, Software #3</Description>
+    </Entry>
+  </Section>
+  <Section name="Honors, grants and awards">
+    <Entry>
+      <Description>General overview of the honors, grands and awards you have received along your career</Description>
+      <Details>
+        <Detail>Award name #1 (Date #1)</Detail>
+        <Detail>Award name #2 (Date #2)</Detail>
+      </Details>
+    </Entry>
+  </Section>
+  <Section name="References">
+    <Entry>
+      <Description>Description of how the recruiter can contact your references to verify your resume and skills or to talk about how was your past work at a company</Description>
+    </Entry>
+  </Section>
+</Resume>

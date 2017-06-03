@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Resume>
+  {{with .Name}}<Name>{{.}}</Name>{{end}}
+  {{with .Title}}<Title>{{.}}</Title>{{end}}
+  {{with .Contact -}}
+  <Contact>
+    {{- with .Email}}
+    <Email>{{.}}</Email>
+    {{- end}}
+    {{- with .Phone}}
+    <Phone>{{.}}</Phone>
+    {{- end}}
+    {{- with .Address}}
+    <Address>{{.}}</Address>
+    {{- end}}
+    {{- with .Webpage.Url}}
+    <Webpage>{{.}}</Webpage>
+    {{- end}}
+    {{- with .Github.Url}}
+    <Github>{{.}}</Github>
+    {{- end}}
+    {{- with .Linkedin.Url}}
+    <Linkedin>{{.}}</Linkedin>
+    {{- end}}
+  </Contact>
+  {{- end -}}
+  {{range .Sections}}
+  <Section name="{{.Name}}">
+    {{- range .Entries}}
+    <Entry>
+      {{- with .What}}
+      <What>{{.}}</What>
+      {{- end}}
+      {{- with .Url}}
+      <Url>{{.}}</Url>
+      {{- end}}
+      {{- with .Where}}
+      <Where>{{.}}</Where>
+      {{- end}}
+      {{- with .When}}
+      <When>{{.}}</When>
+      {{- end}}
+      {{- with .Location}}
+      <Location>{{.}}</Location>
+      {{- end}}
+      {{- with .Description}}
+      <Description>{{.}}</Description>
+      {{- end}}
+      {{- if .Details}}
+      <Details>{{end}}
+      {{- range .Details}}
+        <Detail>{{.}}</Detail>
+      {{- end}}
+      {{- if .Details}}
+      </Details>{{end}}
+    </Entry>
+    {{- end}}
+  </Section>
+  {{- end}}
+</Resume>

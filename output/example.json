@@ -1,0 +1,132 @@
+{
+  "Name": "Name Lastname",
+  "Title": "Professional Title",
+  "Contact": {
+    "Phone": "phone number",
+    "Address": "home address",
+    "Email": "example@email.com",
+    "Webpage": {
+      "Name": "webpage",
+      "Url": "https://eff.org"
+    },
+    "Linkedin": {
+      "Name": "username",
+      "Url": "https://linkedin.com/"
+    },
+    "Github": {
+      "Name": "username",
+      "Url": "https://github.com/"
+    }
+  },
+  "Summary": "Introduction paragraph, who are you, what motivates you and what are you looking for",
+  "Sections": [
+    {
+      "Name": "Education",
+      "Entries": [
+        {
+          "What": "Name of education program #1",
+          "Where": "Institution name #1",
+          "When": "Date #1 - Date #2",
+          "Description": "GPA: X.X/4.0. Relevant courses: Course #1, Course #2, Course #3"
+        },
+        {
+          "What": "Name of education program #2",
+          "Where": "Institution name #2",
+          "When": "Date #1 - Date #2",
+          "Description": "GPA: X.X/10. Something relevant about the program"
+        }
+      ]
+    },
+    {
+      "Name": "Experience",
+      "Entries": [
+        {
+          "What": "Work Title #1",
+          "Where": "Company or institution name, department #1",
+          "When": "Date #1 - Present",
+          "Location": "City #1, State #1",
+          "Details": [
+            "Detailed explanation about the work you did there #1",
+            "Detailed explanation about the work you did there #2",
+            "Really long and detailed explanation about the work you did there, explaining what you achieved and how did you achieved that, what obstacles you overcame and how it made you a better professional in your field of expertise"
+          ]
+        },
+        {
+          "What": "Work Title #2",
+          "When": "Date #3 - Date #4",
+          "Details": [
+            "Detailed explanation about the work you did there #3",
+            "Detailed explanation about the work you did there #4"
+          ]
+        },
+        {
+          "What": "Work Title #2",
+          "Where": "Company or institution name, department #2",
+          "When": "Date #1 - Date #2",
+          "Location": "City #2, State #2",
+          "Details": [
+            "Detailed explanation about the work you did there #1",
+            "Detailed explanation about the work you did there #2",
+            "Really long and detailed explanation about the work you did there, explaining what you achieved and how did you achieved that, what obstacles you overcame and how it made you a better professional in your field of expertise"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Projects",
+      "Entries": [
+        {
+          "What": "Project #1",
+          "Url": "https://github.com/",
+          "Description": "Description of the project",
+          "Details": [
+            "Detailed explanation about the project goal or implementation #1",
+            "Detailed explanation about the project goal or implementation #2"
+          ]
+        },
+        {
+          "What": "Project #2",
+          "Url": "https://github.com/",
+          "Description": "Description of the project",
+          "Details": [
+            "Detailed explanation about the project goal or implementation #1",
+            "Detailed explanation about the project goal or implementation #2"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Skills",
+      "Entries": [
+        {
+          "What": "Competences",
+          "Description": "Competence #1, Competence #2, Competence #3, Competence #4"
+        },
+        {
+          "What": "Software",
+          "Description": "Software #1, Software #2, Software #3"
+        }
+      ]
+    },
+    {
+      "Name": "Honors, grants and awards",
+      "Entries": [
+        {
+          "Description": "General overview of the honors, grands and awards you have received along your career",
+          "Details": [
+            "Award name #1 (Date #1)",
+            "Award name #2 (Date #2)"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "References",
+      "Entries": [
+        {
+          "Description": "Description of how the recruiter can contact your references to verify your resume and skills or to talk about how was your past work at a company"
+        }
+      ]
+    }
+  ]
+}

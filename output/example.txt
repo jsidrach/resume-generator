@@ -1,0 +1,64 @@
+Name Lastname - Professional Title
+
+Contact:
+  Email: example@email.com
+  Phone: phone number
+  Address: home address
+  Webpage: https://eff.org
+  GitHub: https://github.com/
+  LinkedIn: https://linkedin.com/
+
+Introduction paragraph, who are you, what motivates you and what are you looking for
+
+Education
+---
+Institution name #1
+  Name of education program #1 | Date #1 - Date #2
+  GPA: X.X/4.0. Relevant courses: Course #1, Course #2, Course #3
+Institution name #2
+  Name of education program #2 | Date #1 - Date #2
+  GPA: X.X/10. Something relevant about the program
+
+Experience
+---
+Company or institution name, department #1 | City #1, State #1
+  Work Title #1 | Date #1 - Present
+    - Detailed explanation about the work you did there #1
+    - Detailed explanation about the work you did there #2
+    - Really long and detailed explanation about the work you did there, explaining what you achieved and how did you achieved that, what obstacles you overcame and how it made you a better professional in your field of expertise
+  Work Title #2 | Date #3 - Date #4
+    - Detailed explanation about the work you did there #3
+    - Detailed explanation about the work you did there #4
+Company or institution name, department #2 | City #2, State #2
+  Work Title #2 | Date #1 - Date #2
+    - Detailed explanation about the work you did there #1
+    - Detailed explanation about the work you did there #2
+    - Really long and detailed explanation about the work you did there, explaining what you achieved and how did you achieved that, what obstacles you overcame and how it made you a better professional in your field of expertise
+
+Projects
+---
+Project #1 - https://github.com/
+  Description of the project
+    - Detailed explanation about the project goal or implementation #1
+    - Detailed explanation about the project goal or implementation #2
+Project #2 - https://github.com/
+  Description of the project
+    - Detailed explanation about the project goal or implementation #1
+    - Detailed explanation about the project goal or implementation #2
+
+Skills
+---
+Competences
+  Competence #1, Competence #2, Competence #3, Competence #4
+Software
+  Software #1, Software #2, Software #3
+
+Honors, grants and awards
+---
+General overview of the honors, grands and awards you have received along your career
+  - Award name #1 (Date #1)
+  - Award name #2 (Date #2)
+
+References
+---
+Description of how the recruiter can contact your references to verify your resume and skills or to talk about how was your past work at a company

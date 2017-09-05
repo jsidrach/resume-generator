@@ -13,13 +13,13 @@
     {{- with .Address}}
     <Address>{{.}}</Address>
     {{- end}}
-    {{- with .Webpage.Url}}
+    {{- with .Webpage.URL}}
     <Webpage>{{.}}</Webpage>
     {{- end}}
-    {{- with .Github.Url}}
+    {{- with .Github.URL}}
     <Github>{{.}}</Github>
     {{- end}}
-    {{- with .Linkedin.Url}}
+    {{- with .Linkedin.URL}}
     <Linkedin>{{.}}</Linkedin>
     {{- end}}
   </Contact>
@@ -31,7 +31,7 @@
       {{- with .What}}
       <What>{{.}}</What>
       {{- end}}
-      {{- with .Url}}
+      {{- with .URL}}
       <Url>{{.}}</Url>
       {{- end}}
       {{- with .Where}}

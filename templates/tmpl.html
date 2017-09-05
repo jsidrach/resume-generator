@@ -265,13 +265,13 @@
         <!-- Contact information -->
         <div class="header-contact">
           {{- with .Contact.Github}}
-            <span><i class="icon icon-repository"></i> <a href="{{.Url}}">{{.Name}}</a></span>
+            <span><i class="icon icon-repository"></i> <a href="{{.URL}}">{{.Name}}</a></span>
           {{- end}}
           {{- with .Contact.Linkedin}}
-            <span><i class="icon icon-job"></i> <a href="{{.Url}}">{{.Name}}</a></span>
+            <span><i class="icon icon-job"></i> <a href="{{.URL}}">{{.Name}}</a></span>
           {{- end}}
           {{- with .Contact.Webpage}}
-            <span><i class="icon icon-webpage"></i> <a href="{{.Url}}">{{.Name}}</a></span>
+            <span><i class="icon icon-webpage"></i> <a href="{{.URL}}">{{.Name}}</a></span>
           {{- end}}
           {{- with .Contact.Address}}
             <span><i class="icon icon-address"></i> {{.}}</span>
@@ -311,7 +311,7 @@
                     {{- with .When}}
                       <span class="entry-when">{{.}}</span>
                     {{- end}}
-                    {{- $url := .Url }}
+                    {{- $url := .URL }}
                     {{- with .What}}
                       <span class="entry-what">
                       {{- with $url}}

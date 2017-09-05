@@ -13,13 +13,13 @@
 {{- with .Address}}
 - Address: {{.}}
 {{- end -}}
-{{- with .Webpage.Url}}
+{{- with .Webpage.URL}}
 - Webpage: {{.}}
 {{- end -}}
-{{- with .Github.Url}}
+{{- with .Github.URL}}
 - GitHub: {{.}}
 {{- end -}}
-{{- with .Linkedin.Url}}
+{{- with .Linkedin.URL}}
 - LinkedIn: {{.}}
 {{- end}}
 {{- end}}
@@ -35,7 +35,7 @@
 {{- with .What}}
 **{{.}}**{{end}}
 {{- with .When}} | *{{.}}*{{end}}
-{{- with .Url}} - {{.}}{{end}}
+{{- with .URL}} - {{.}}{{end}}
 {{- with .Description}}
 
 {{.}}{{end}}

@@ -264,14 +264,14 @@
         </div>
         <!-- Contact information -->
         <div class="header-contact">
-          {{- with .Contact.Github}}
-            <span><i class="icon icon-repository"></i> <a href="{{.URL}}">{{.Name}}</a></span>
+          {{- if .Contact.Github.Name}}
+            <span><i class="icon icon-repository"></i> <a href="{{.Contact.Github.URL}}">{{.Contact.Github.Name}}</a></span>
           {{- end}}
-          {{- with .Contact.Linkedin}}
-            <span><i class="icon icon-job"></i> <a href="{{.URL}}">{{.Name}}</a></span>
+          {{- if .Contact.Linkedin.Name}}
+            <span><i class="icon icon-job"></i> <a href="{{.Contact.Linkedin.URL}}">{{.Contact.Linkedin.Name}}</a></span>
           {{- end}}
-          {{- with .Contact.Webpage}}
-            <span><i class="icon icon-webpage"></i> <a href="{{.URL}}">{{.Name}}</a></span>
+          {{- if .Contact.Webpage.Name}}
+            <span><i class="icon icon-webpage"></i> <a href="{{.Contact.Webpage.URL}}">{{.Contact.Webpage.Name}}</a></span>
           {{- end}}
           {{- with .Contact.Address}}
             <span><i class="icon icon-address"></i> {{.}}</span>

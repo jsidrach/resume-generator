@@ -10,12 +10,11 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"path"
 	"text/template"
 	"time"
 
 	"github.com/gorilla/websocket"
-	"gopkg.in/yaml.v2"
+	yaml "gopkg.in/yaml.v2"
 )
 
 func main() {
@@ -258,19 +257,18 @@ func saveHTMLAsPDF(browserRemote string, inputHTML string, outputPDF string, par
 	}
 	defer ws.Close()
 
-	// Navigate to the input html
-	dir, err := os.Getwd()
+	// Send html content to the browser
+	htmlBuf, err := ioutil.ReadFile(inputHTML)
 	if err != nil {
-		return fmt.Errorf("Get path of working directory failed\n%s", err)
+		return fmt.Errorf("Read html file failed\n%s", err)
 	}
-	inputPath := "file://" + path.Join(dir, inputHTML)
-	navigateParams, err := json.Marshal(map[string]string{"url": inputPath})
+	htmlParams, err := json.Marshal(map[string]string{"frameId": tabs[0]["id"], "html": string(htmlBuf)})
 	if err != nil {
-		return fmt.Errorf("Marshal of parameters to navigate to page command failed\n%s", err)
+		return fmt.Errorf("Marshal of parameters to send html command failed\n%s", err)
 	}
-	_, err = wsCommand(ws, 0, "Page.navigate", navigateParams)
+	_, err = wsCommand(ws, 0, "Page.setDocumentContent", htmlParams)
 	if err != nil {
-		return fmt.Errorf("Send request to open input html failed\n%s", err)
+		return fmt.Errorf("Send request to render input html failed\n%s", err)
 	}
 
 	// Save page as PDF

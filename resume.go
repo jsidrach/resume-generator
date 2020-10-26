@@ -314,7 +314,7 @@ func wsCommand(ws *websocket.Conn, id int64, method string, params json.RawMessa
 	if err != nil {
 		return nil, fmt.Errorf("Write message to socket failed\n%s", err)
 	}
-	time.Sleep(time.Second)
+	time.Sleep(5 * time.Second)
 
 	// Receive response from socket
 	_, b, err := ws.ReadMessage()
